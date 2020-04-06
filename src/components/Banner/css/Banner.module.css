@@ -1,0 +1,26 @@
+.banner{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+.bannerImg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.bannerTips{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top:30px;
+    left:30px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+}
+.bannerTips .bannerLogo{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 4px;
+    margin-right: 10px;
+}

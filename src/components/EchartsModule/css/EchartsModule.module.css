@@ -1,0 +1,9 @@
+.echartsRoot{
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.echartsDom{
+    width: 100%;
+    height: 680px;
+}

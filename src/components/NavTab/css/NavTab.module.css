@@ -1,0 +1,31 @@
+.navTab{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
+  }
+  .navItem{
+    flex: 0 0 auto;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    line-height: normal;
+    color: #666666;
+  }
+  .navItem.active{
+      color: #008d5e;
+  }
+  .navImg{
+    width: 34px;
+    height: auto;
+  }

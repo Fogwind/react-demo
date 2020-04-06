@@ -1,0 +1,104 @@
+.lineCard{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+.dot{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 9px solid #e5f7f1;
+    background: #00b377;
+    z-index: 1;
+}
+.line{
+    position: absolute;
+    top:15px;
+    left:13px;
+    bottom:-40px;
+    width:4px;
+    background-color: #e5f7f1;
+}
+
+.lineCardBody{
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 50px;
+    text-align: left;
+}
+.dateTime{
+    color: #aaaaaa;
+    font-size: 28px;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+.latest{
+    margin-left: 5px;
+    padding: 4px 6px;
+    text-align: center;
+    line-height: normal;
+    font-size: 24px;
+    color: #ffffff;
+    -webkit-transform: scale(.83);
+    transform: scale(.83);
+    border-radius: 4px;
+    background: linear-gradient(to right bottom,#ff7b00,#e84a00);
+}
+.contentBox{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    padding:36px 24px;
+    margin-bottom: 36px;
+}
+.contentTitle{
+    color: #444444;
+    font-size: 36px;
+    font-weight: 700;
+}
+.contentBody{
+    position: relative;
+    box-sizing: border-box;
+    width:100%;
+    overflow: hidden;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    max-height: 152px;
+}
+.contentBody.showmore{
+    overflow: visible;
+    max-height: auto;
+    max-height: -webkit-fit-content;
+    max-height: fit-content;
+    margin-bottom: 12px;
+}
+.content{
+    font-size: 28px;
+    line-height: 1.4285em;
+    color:#666666;
+    text-align: justify;
+}
+.more{
+    position: absolute;
+    right: 0;
+    top: 116px;
+    font-size: 24px;
+    color: #008d5e;
+    line-height: 48px;
+    background-color: #f8f8f8;
+    padding-left: 92px;
+    background: -webkit-linear-gradient(left,hsla(0,0%,97%,0),#f8f8f8 66px,#f8f8f8);
+    background: linear-gradient(90deg,hsla(0,0%,97%,0),#f8f8f8 66px,#f8f8f8);
+}
+.more.hide{
+    display:none;
+}
+.contnetBottom{
+    font-size: 24px;
+    color:#cccccc;
+    line-height: 1em;
+}

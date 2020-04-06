@@ -56,7 +56,7 @@ class RxShade extends Component {
         
       });
     }
-    if(!!props.visible) { // 显示
+    if(!!this.props.visible) { // 显示
       originalStyleObj.overflow = 'hidden';
     } else { // 隐藏
       originalStyleObj.overflow = 'auto';

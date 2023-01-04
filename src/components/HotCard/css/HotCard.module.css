@@ -1,0 +1,65 @@
+.hotCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 18px;
+    background: #ffffff;
+    padding: 30px 20px 30px 0;
+    margin-bottom: 18px;
+}
+.hotIcon{
+    position: absolute;
+    width:66px;
+    height: 66px;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nailLeft{
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width:12px;
+    height: 28px;
+}
+.nailRight{
+    position: absolute;
+    right: 30px;
+    top: -8px;
+    width:12px;
+    height: 28px;
+}
+.hotInfo{
+    text-align: left;
+    margin-left: 114px;
+}
+.hotTitle{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+.hotDiscribe{
+    margin-top: 6px;
+    font-size: 28px;
+    line-height: normal;
+    color: rgba(0,0,0,0.4);
+}
+.hotDirect{
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    font-size: 28px;
+    color:#aaaaaa;
+    line-height: normal;
+}
+.rightArrow{
+    width: 1em;
+    height: 1em;
+}
+
+.test{
+    background: red;
+}

@@ -1,0 +1,47 @@
+.titleListCard{
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 0 30px;
+}
+.cardHeader{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.cardBody{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+.titleItem{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 54px;
+}
+.itemDot{
+    flex:0 0 auto;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 5px solid #00b377;
+}
+.itemText{
+    flex:1 1 auto;
+    font-size: 32px;
+    line-height: normal;
+    color:#666666;
+    text-align: justify;
+}
+.rightArrow{
+    height: 42px;
+    width: auto;
+}

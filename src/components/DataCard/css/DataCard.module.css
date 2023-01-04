@@ -1,0 +1,342 @@
+.dataCard{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 18px;
+    background: #ffffff;
+    padding: 0 30px;
+    margin-bottom: 18px;
+}
+
+.globalData{
+    box-sizing: border-box;
+    width: 100%;
+}
+.dataTitle{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+.title{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    height: 100px;
+    line-height: 100px;
+}
+.cornerTips{
+    display:flex;
+    align-items: center;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 42px;
+    border-radius: 21px 0 0 21px;
+    color: #aaa;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    padding: 0 10px;
+    background-color: #f5f5f5;
+}
+.helpIcon{
+    margin-right:6px;
+    width: 26px;
+    height: 26px;
+}
+
+.dataDisplayBox{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 22px;
+}
+
+
+.compareTitle{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.compareImg{
+    flex: 0 0 auto;
+    width: 75px;
+    height: auto;
+}
+.doshImg{
+    flex: 1 1 auto;
+    height: 3px;
+    width: 100%;
+}
+
+.compareData{
+    margin-top: 6px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color:rgb(170,170,170);
+    font-size: 24px;
+}
+.compareDataItem{
+    flex: 0 0 auto;
+}
+
+.compareBottom{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+}
+.doshImgBottom{
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+
+.localData{
+    padding: 31px 24px 0 24px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 60px 0;
+    background: #f8f8f8;
+    border-radius: 12px;
+}
+.localHeader{
+    display: flex;
+    
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.localHeaderTitle{
+    text-align: left;
+    font-size: 28px;
+    color: #666666;
+    font-weight: 700;
+}
+.localHeaderCity{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color:#008d5e;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+.localHeaderCity .after{
+    /* content: "" !important; */
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: rgba(0,141,94,.1);
+}
+.placeImg{
+    width:30px;
+    height:auto;
+}
+
+
+.localDataList{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+.listItem{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.infoItem{
+    flex: 1 0 auto;
+    width: 25%;
+    text-align: center;
+    color:#aaaaaa;
+    font-size: 24px;
+    line-height: normal;
+}
+.infoItem.label{
+    flex: 0 1 auto;
+    width: 20%;
+    text-align: left;
+    font-size: 28px;
+    color:#666666;
+    line-height: normal;
+}
+.totalInfo{
+    color:#cc4100;
+    font-size: 32px;
+    line-height: normal;
+}
+.cancelInfo{
+    color:#e68600;
+    font-size: 32px;
+    line-height: normal;
+}
+.badInfo{
+    color:#666666;
+    font-size: 32px;
+    line-height: normal;
+}
+
+.orderMap{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 60px 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.mapTitle{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.orderTrend{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 60px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.treanTitle{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700; 
+}
+
+.dataListRoot{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 60px 0;
+}
+.dataListTitle{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px; 
+}
+/* card-section */
+.cardSection{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 60px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.sectionTitle{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/*数据说明弹窗样式*/
+.dataShadeInner{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 630px;
+    height: 848px;
+    margin-top: -424px;
+    margin-left: -315px;
+    background-color: #fff;
+    border-radius: 18px;
+}
+.shadeCloseBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width:72px;
+    height:72px;
+    border-radius: 36px;
+    bottom: -100px;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,0.6);
+}
+.shadeCloseImg{
+    width:60px;
+    height:60px;
+}
+.dataShadeCard{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.dataShadeTitle{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 120px;
+    border-radius: 18px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height:120px;
+    background-size: 100% auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg.jpg');
+    overflow: hidden;
+
+}
+.dataShadeContent{
+    position: relative;
+    flex: 1 1 auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 48px 42px 48px;
+    overflow: scroll;
+}
+.contentTitle{
+    position: relative;
+    padding-top:6px;
+    color:#444444;
+    font-size: 28px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+.titleDot{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 5px solid #00b377;
+    margin-right: 8px;
+}
+.contentParagraph{
+    color:#666666;
+    font-size: 28px;
+    margin-bottom: 30px;
+    line-height: 1.8em;
+}
+.contentBottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 42px;
+    border-radius: 0 0 18px 18px;
+    background: linear-gradient(0deg,#fff,#fff 20px,hsla(0,0%,100%,0));
+    
+}
